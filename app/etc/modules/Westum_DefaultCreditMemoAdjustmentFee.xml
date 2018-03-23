@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Htmlpet_DefaultCreditMemoAdjustmentFee>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Htmlpet_DefaultCreditMemoAdjustmentFee>
+    </modules>
+</config>

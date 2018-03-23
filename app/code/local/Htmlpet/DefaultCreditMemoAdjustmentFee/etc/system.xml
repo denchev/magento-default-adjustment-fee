@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <sales>
+            <groups>
+                <general>
+                    <fields>
+                        <default_adjustment_fee translate="label">
+                            <label>Default Adjustment Fee</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>Set to any negative number to disable functionality</comment>
+                        </default_adjustment_fee>
+                    </fields>
+                </general>
+            </groups>
+        </sales>
+    </sections>
+</config>

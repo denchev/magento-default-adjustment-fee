@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Htmlpet_DefaultCreditMemoAdjustmentFee>
+            <version>1.0.0</version>
+        </Htmlpet_DefaultCreditMemoAdjustmentFee>
+    </modules>
+
+    <global>
+        <models>
+            <sales>
+                <rewrite>
+                    <order_creditmemo>Htmlpet_DefaultCreditMemoAdjustmentFee_Model_Order_Creditmemo</order_creditmemo>
+                </rewrite>
+            </sales>
+        </models>
+    </global>
+
+    <default>
+        <sales>
+            <general>
+                <default_adjustment_fee>15</default_adjustment_fee>
+            </general>
+        </sales>
+    </default>
+</config>
